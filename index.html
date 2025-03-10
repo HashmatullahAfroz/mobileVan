@@ -2,15 +2,16 @@
 <html lang="Us-en">
 <head>
 	<meta name="viewport" name="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
 	<script type="text/javascript"  src="js/all.js"></script><!--fontawesome -->
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="js/design.js"></script>
 	<link rel="icon" href="images/title-img.png">
-	<title>Photo_X</title>
-<script type="text/design.js"></script>
-<style>
+	<title>Mobile Van</title>  
+<style>  
 	header{
 		height:100vh;
 		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("images/header-img.jpeg") no-repeat center center /cover;
@@ -199,7 +200,7 @@
 		background:linear-gradient(105deg,
 		rgba(10,10,23,.90)0%,
 		rgba(10,10,23,.95) 50%,
-		transparent 50%),url("images/form-img.jpeg") no-repeat center center /cover;
+		transparent 50%),url("images/mV1.png") no-repeat center center /cover;
 	}
 	.input{
 		background:transparent;
@@ -266,52 +267,60 @@
 <body>
 <!-- header starts -->
 <header>
-<nav class="fixed-top bgopacity navbar navbar-expand-lg">
-	<a href="#" class="navbar-brand text-white px-4"><span class="motion text-uppercase">photo</span><code class="x h1">X</code></a>
+	<nav class="fixed-top bgopacity navbar navbar-expand-lg">
+		<a href="#" class="navbar-brand text-white px-4"><span class="motion text-uppercase">Mobile</span><code class="x h1">Van</code></a>
 
-	<button id="close_tags" class="nav-button navbar-toggler" data-toggle="collapse" data-target="#mynav"><div class="line1"></div><div class="line2"></div><div class="line3"></div></button>
-	<div class="collapse navbar-collapse" id="mynav">
-		<ul class="navbar-nav" style="margin-left: 10px;">
-			<li class=" text-uppercase nav-item mx-3"><a class="li_links nav-link" href="#">Home</a></li>
-			<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#">Langs</a></li>
-			<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#">Same</a></li>
-			<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#">Here</a></li>
-			<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#">status</a></li>
-			<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#">About</a></li>
-		</ul>
-	</div>
-</nav>
+		<button id="close_tags" class="nav-button navbar-toggler" data-toggle="collapse" data-target="#mynav"><div class="line1"></div><div class="line2"></div><div class="line3"></div></button>
+		<div class="collapse navbar-collapse" id="mynav">
+			<ul class="navbar-nav" style="margin-left: 10px;">
+				<li class=" text-uppercase nav-item mx-3"><a class="li_links nav-link" href="#">Home</a></li>  
+				<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#status">status</a></li>
+				<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#collection">Our Collection</a></li>
+				<li class="text-uppercase nav-item mx-3"><a class="li_links nav-link " href="#contact">contact us</a></li> 
+			</ul>
+		</div>
+	</nav>
 		<div class="banner text-md-right text-center text-light">
-			<h1 class="titles display-4 head">Welcome to <span class="text-uppercase colors">photo</span><span class="display-3">X</span></h1>
-			<p class="paragraph lead">We are here to break the rules ShadowDevs comments</p>
+			<h1 class="titles display-4 head">Welcome to <span class="text-uppercase colors">Mobile</span><span class="display-3">Van</span></h1>
+			<p class="paragraph lead">Stranded on the road? MoblineVan is here to get you back on track with expert tyre services and roadside assistance!</p>
 		</div>
 </header>
 <!-- header Ends -->
 <!-- title starts-->
 <section>
-		<div class="container-fluid bg-dark">
+		<div class="container-fluid bg-dark" id="status">
 			<div class="row">
 				<div class="col text-center text-white my-5">
 					<h1 class="display-3 text-uppercase mb-3">Our mission</h1>
 					<div style="width: 200px; margin:auto; border:2px groove; background-color:white; "></div>
-					<p class="lead mt-4">Lorem lorem is about to hint his house among  us inside our world for us lorem is about to<br> hint his house among us inside our world for us</p>
+					<p class="lead mt-4">At MoblineVan we provide fast, reliable, and professional roadside assistance.<br> </p>
 				</div>
 			</div>
 			<div class="row text-white">
 				<div class="col-md-4 text-center mb-5">
 					<i class="fas fa-cogs text-danger fa-5x mb-3"></i>
 					<h1 class="font-weight-light">Creativity</h1>
-					<p class="lead">Lorem lorem is about to hint his house among  us inside our world for us lorem is about to hint his house among us inside our world for us</p>
+					<p class="lead">
+						Our Mobile Tyre Van is here to bring tyre solutions directly to you. Whether you're stuck on the side of the road or need a quick repair at your home or workplace,
+						we bring the garage to your door. Our expert team ensures your tyres are in top condition with fast,
+						efficient service, so you never have to worry about getting stranded.
+						</p>
 				</div>
 				<div class="col-md-4 text-center mb-5">
 					<i class="fas fa-thumbs-up text-danger fa-5x mb-3"></i>
 					<h1 class="font-weight-light">Supports</h1>
-					<p class="lead">Lorem lorem is about to hint his house among  us inside our world for us lorem is about to hint his house among us inside our world for us</p>
+					<p class="lead">
+						At our mobile tyre van service, we understand that flat tyres or blowouts can happen at the most inconvenient times. That's why our team is always ready to help,
+						offering prompt and reliable support to get you back on the road. With a wide range of tyres and services available on the go,
+						we're here for you anytime, anywhere.
+					</p>
 				</div>
 				<div class="col-md-4 text-center mb-5">
 					<i class="far fa-handshake text-danger fa-5x mb-3"></i>
 					<h1 class="font-weight-light">Experiance</h1>
-					<p class="lead">Lorem lorem is about to hint his house among  us inside our world for us lorem is about to hint his house among us inside our world for us</p>
+					<p class="lead">With years of experience in the tyre industry, our mobile van service is designed to provide you with the expertise and convenience you deserve.
+						From tyre fitting and repairs to safety checks,
+						we bring professional service right to your doorstep. Our technicians are fully trained to handle a variety of tyre needs, ensuring you always have a smooth, safe ride.</p>
 				</div>
 			</div>
 		</div>
@@ -322,15 +331,16 @@
 		<div class="container">
 			<div class="row"
 >				<div class="col-lg-5 text-center">
-					<img src="images/camera.png" class="img-fluid img-customer" width="300">
+					<img src="images/car.png" class="img-fluid img-customer" style="border-radius: 20%;" width="500">
 				</div>
 				<div class="col-lg-7 text-white text-center paragraph-anim">
-				<h1>The standard protocol</h1><br>
+				<h1>The MobileVanTyre Service Protocol</h1><br>
 					<p class="lead">
-						The PhotoX is developed in 2020
-						among the human race for taking the pic of it and never let it happen
-						The PhotoX is developed in 2020
-						among the human race for taking the pic of it and never let it happen
+						The MobileVanTyre Service was launched in 2025, with the mission to provide efficient, on-site tyre solutions to individuals and businesses.
+						Our service ensures that customers never face the stress of tyre-related issues, no matter where they are. We are committed to ensuring the highest standards of safety,
+						convenience, and customer satisfaction by offering professional tyre fitting, repairs, and replacements right at your doorstep.
+						Our mission is clear: to bring quick and reliable tyre services directly to your location, allowing you to get back on the road without
+						the hassle of traditional tyre service methods.
 					</p>
 				</div>
 			</div>
@@ -338,19 +348,20 @@
 </section>
 <!-- Camera animation Ends -->
 <!-- photo collectionn starts -->
-<section>
+<section id="collection">
 		<div class="container-fluid pt-5 bg-secondary">
 			<div class="row text-center">
 				<div class="col">
-					<h1 class="text-white font-weight-light">Collection</h1>
-					<hr style="width: 130px; background-color:white; height: 3px;">
-					<p class="lead text-white">We are here to help among human gens for the best quality of human generation human gens for the best quality of human generation</p>
+					<h1 class="text-white font-weight-light">Our Collection</h1>
+				<hr style="width: 130px; background-color:white; height: 3px;">
+				<p class="lead text-white">Dedicated to providing the finest quality, <br />we strive to empower the next generation with exceptional service,
+					ensuring excellence in every experience.</p>
 				</div>
 			</div>
 			<div class="row pt-5 justify-content-center">
 				<div class="col-lg-4  mb-3 col-sm-6">
 					<div class="card head">
-							<img src="images/nature.jpeg" class="card-img">
+							<img src="images/nature2.jpeg" class="card-img">
 						<div class="card-img-overlay">
 							<h5 class="img-sub text-white">This is the nice nature</h5>
 						</div>
@@ -402,7 +413,7 @@
 
 <!-- photo collection Ends-->
 <!-- photo khezak starts-->
-<section>
+<!-- <section>
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col text-center text-secondary mt-5">
@@ -439,10 +450,10 @@
 				</div>
 			</div>
 		</div>
-</section>
+</section> -->
 <!-- photo khezak Ends-->
 <!-- start of gallary -->
-<section class="mt-5">
+<!-- <section class="mt-5">
 	<div class="container-fluid" style="background-color: #222;">
 		<div class="row">
 			<div class="col-sm-6 mx-auto text-white text-center my-3">
@@ -547,14 +558,14 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- Ends of gallary -->
 <!-- start of pricing -->
-<section class="bg-light pb-5">
+<!-- <section class="bg-light pb-5">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col text-center text-secondary mt-5">
-				<h1 class="display-3">Join Us</h1>
+				<h1 class="display-3">Know Us</h1>
 				<hr style="width: 260px; background-color: gray; height: 5px;">
 				<p class="lead">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -607,10 +618,10 @@
 			<i class="mt-3 fas fa-coffee fa-3x"></i>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- End of pricing -->
 <!-- CONTACT -->
-<section class="contacts p-5">
+<section class="contacts p-5" id="contact">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-5 pb-4">
